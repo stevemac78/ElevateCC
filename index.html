@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<!-- 
+  This HTML file is just a framework for the script (src/script2.js) to fill in.
+
+  The styling is done with Bootstrap, but you can add custom CSS
+  in the css/style1.css file.  It is responsive, try loading this on a small screen
+  like a phone or tablet.
+
+  The only thing you really need to change (if you want) in this file is line 34 to match
+  your company name - Tobin Solkey
+
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate CCaaS</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4dc6fc05fe.js" crossorigin="anonymous"></script>
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="src/script2.js"></script>
+
+<body class="body">
+
+<div class="container header">
+  <div class="row row-cols-1">
+    <div class="col">
+<center><bold><h1>Elevate Contact Center</h1></bold></center> 
+</div>
+</div>
+</div>
+<div class="container General-Stats">
+  <table id="General-Stats-table" class="table table-lgfnt General-Stats-table">
+    <thead>
+      <tr>
+        <th colspan="2" class="table-primary top-header">Global Stats</th>
+      </tr>
+      <tr class="table-info">
+        <th>Total Calls Queued</th>
+        <th>Abandoned Calls</th>
+        <th class="statusCell">Service Level</th>
+        <th>Calls Answered</th>
+        <th>Callbacks Waiting</th>
+       </tr>
+    </thead>
+    <tbody class="statNumbers">
+      <tr>
+        <td></td>
+        <td></td>
+        <td>No Agents Logged in</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="container queue-stats">
+  <table id="queue-stats-table" class="table table-mdfnt queue-stats-table">
+    <thead>
+      <tr class="table-primary">
+        <th colspan="2" class="top-header">Active Queue Stats</th>
+      </tr>
+      <tr class="table-info">
+        <th>Queue Name</th>
+        <th>Total Calls Queued</th>
+        <th>Abandoned Calls</th>
+        <th class="statusCell">Service Level</th>
+        <th>Avg Wait Time</th>
+        <th>Callbacks Waiting</th>
+        <th>Callbacks Completed</th>
+       </tr>
+    </thead>
+    <tbody class="statNumbers">
+      <tr>
+        <td></td>
+        <td></td>
+        <td>Realtime Queue Stats Here</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="main-div">
+<div class="container">
+  <div class="row row-cols-lg-2 row-cols-1">
+    <div class="col">
+
+      <div class="row">
+
+<div class="container-agents">
+        <table id="agent-table" class="table content-table agents">
+            <thead>
+              <tr class="table-primary">
+                <th colspan="3"></i>Logged in Agent Status</th>
+              </tr>
+              <tr class="table-info">
+                <th>Agent Name</th>
+                <th>Team</th>
+                <th class="statusCell">Agent Status</th>
+                <th class="call-cells">Calls Answered</th>
+                <th class="call-cells">Calls Dialed</th>
+                <th class="call-cells">Calls Missed</th>
+                <th class="call-cells">Chats</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>No Agents Logged in</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        
+          </div>
+
+        </div>
+
+<div class="row">
+
+  <div class="col">
+
+  <div class="container-calls">
+  
+    <table id="calls-table" class="table content-table calls">
+        <thead>
+          <tr class="table-primary"><th colspan="2">Last 10 Incoming Calls</th></tr>
+          <tr class="table-info">
+            <th>Queue</th>
+            <th>CallerID</th>
+            <th>CName</th>
+            <th>Time</th>
+            <th>Disconnected by</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>No Calls Today</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+  </div>
+  
+  </div>
+
+</div>
+
+</div>
+
+    <div class="col">
+
+      <div class="container container-queues">
+        <div class="container queutablediv">
+    
+    <table id="queue-table" class="table content-table queues">
+        <thead>
+          <tr class="table-primary"><th colspan="3">Active Queue Status</th></tr>
+          <tr class="table-info">
+            <th>Queue Name</th>
+            <th class="call-cells">Max Wait</th>
+            <th class="call-cells">Agents logged in</th>
+            <th class="call-cells">Current Calls</th>
+            <th class="call-cells">Waiting Callbacks</th>
+           </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>No Agents Logged in</td>
+            <td></td>
+            <td></td>
+          </tr>
+         </tbody>
+      </table>
+        </div>    
+      </div>
+    
+
+
+    </div>
+  
+</div>
+  
+
+</div>
+</div>
+
+  </body>
+
+  </html>

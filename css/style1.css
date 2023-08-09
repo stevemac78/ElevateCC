@@ -1,0 +1,76 @@
+
+
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.table-lgfnt {
+    font-size:x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-mdfnt {
+    font-size:large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.queues tr:nth-child(n+16) {
+    display: none;
+}
+
+.General-Stats-table {
+    margin-top: 1em;
+    font-size: 1.3em;
+    border-collapse: collapse;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
+.queue-stats-table {
+    margin-top: 1em;
+    font-size: 1em;
+    border-collapse: collapse;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
+.agents {
+    margin-top: 1em;
+    font-size: 0.850em;
+    border-collapse: collapse;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
+.call-cells {
+    text-align: center;
+}
+
+.calls {
+    margin-top: 1em;
+    font-size: 0.90em;
+    border-collapse: collapse;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+
+}
+
+.queues {
+    margin-top: 1em;
+    font-size: 0.90em;
+    border-collapse: collapse;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+    margin-right: 0;
+}
+
+.agentIcon::before {
+    font: var(--fa-font-solid);
+    content: "\f590";
+    padding-right: .5em;
+}
+
