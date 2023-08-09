@@ -1,7 +1,7 @@
 
 // Change the following API_KEY_VALUE to match your CC instance
 
-const API_KEY_VALUE = "sjDfcIsuBZ1sijdoslIlskdyfmHPYMc0q6BbbE7k="
+const API_KEY_VALUE = "o7xUWqUSM8P1k6DfIZEaHTp1qCORgyf7kwg89VTq6xA="
 
 // Set the API_BASE_URL below to the appropriate server
 // Base URLs
@@ -13,7 +13,7 @@ const API_KEY_VALUE = "sjDfcIsuBZ1sijdoslIlskdyfmHPYMc0q6BbbE7k="
 // Japan	https://pop4-apps.mycontactcenter.net/API
 
 
-const API_BASE_URL = "https://pop1-apps.mycontactcenter.net/API/";
+const API_BASE_URL = "https://pop2-apps.mycontactcenter.net/API/";
 
 // THIS IS THE END OF THE CONFIGURATION NEEDED TO GET UP AND RUNNING
 // You can certainly customize this and the accompaning HTML/CSS
