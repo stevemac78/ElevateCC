@@ -531,7 +531,7 @@ function populateCalls (cdata) {
                 tr.appendChild(td2);
                  
                 const td3 = document.createElement("td");
-                td3.textContent = row.GeneralInfo.Label;
+                td3.textContent = row.GeneralInfo.Data;
                 tr.appendChild(td3);
 
 
