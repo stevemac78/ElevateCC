@@ -531,7 +531,7 @@ function populateCalls (cdata) {
                 tr.appendChild(td2);
                  
                 const td3 = document.createElement("td");
-                td3.textContent = row.Checkpoints.length > 0 ? row.Checkpoints[0].Data : "N/A";
+                td3.textContent = row.Checkpoints.Data;
                 tr.appendChild(td3);
 
                 const td4 = document.createElement("td");
